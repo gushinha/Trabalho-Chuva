@@ -1,0 +1,1273 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+/*Inicio do menu fixo do canto esquerdo*/
+.menu{
+    position: fixed;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+.menu .titulo_box{
+    width: 220px;
+    height: 68px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+}
+.menu .titulo_box h1{
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.menu img{
+    position: relative;
+    top: 68px;
+}
+.menu ul{
+    position: relative;
+    width: auto;
+    height: auto;
+    right: 33px;
+    top: 33px;
+    list-style-type: none;
+}
+.menu ul li{
+    position: relative;
+    width: auto;
+    height: 19px;
+    top: 10px;
+    bottom: 10px;
+    border-bottom: 2px solid #E7E7E7;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+.menu ul li a{
+    position: absolute;
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #725C5C;
+    left: 15px;
+}
+/*Fim do menu fixo do canto esquerdo*/
+
+/*Inicio do cabeçalho*/
+.cabecalho{
+    position: relative;
+    width: 84.5%;
+    height: 68px;
+    left: 220px;
+    top: 0px;
+    background-color:#FDF1EB;
+}
+.cabecalho h1{
+    position: absolute;
+    width: 700px;
+    height: 26px;
+    left: 36px;
+    top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #725C5C;
+}
+.cabecalho h2{
+    position: absolute;
+    width: 391px;
+    height: 16px;
+    left: 36px;
+    top: 0px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+.cabecalho h3{
+    position: absolute;
+    width: 105px;
+    height: 16px;
+    left: 36px;
+    top: 35px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #725C5C;
+}
+.cabecalho .idioma_select{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 789px;
+    top: 17px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #333333;
+    display: inline-block;
+}
+.cabecalho .idioma{
+    position:absolute;
+    width: 22px;
+    height: 21px;
+    top: 21px;
+    left:795px;
+    pointer-events: none;
+}
+.cabecalho .idioma_select select{
+    position: relative;
+    border-radius: 3px 0px 0px 0px;
+    width: 97px;
+    height: 34px;
+    border: 1px solid #CCCCCC;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url(../img/dropdown.png); /* Substitua pelo caminho da sua imagem */
+    background-repeat: no-repeat;
+    background-position: right center; /* Posiciona a imagem à direita do elemento */
+    text-align: center;
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    background-color: transparent;
+}
+.cabecalho .user{
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    top: 17px;
+    left: 0%;
+}
+.cabecalho .user h1{
+    position: absolute;
+    width: 72px;
+    height: 18px;
+    left: 999px;
+    top: 0px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: right;
+}
+.cabecalho .user h2{
+    position: absolute;
+    width: 163px;
+    height: 15px;
+    top: 15px;
+    left: 908px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: right;
+}
+.cabecalho .user .perfil{
+    position: absolute;
+    top: 8px;
+    left: 1080px;
+}
+.cabecalho .user .notification{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 7px;
+    left: 1102px;
+    gap: 0px;
+    opacity: 0px;
+}
+/*Fim do cabeçalho*/
+
+/*Inicio do corpo*/
+/*Inicio cabeçalho e vídeo do corpo*/
+.corpo{
+    position: relative;
+    width: 1059px;
+    height: auto;
+    top: 20px;
+    left: 263px;
+    max-height: 10000px;
+}
+.corpo .titulo h1{
+    width: 786px;
+    height: 54px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #ED7839;
+}
+.corpo .video-container {
+    position: absolute;
+}
+.corpo .video-container video{
+    width: 784px;
+    height: 470px;
+    top: 73px;
+    left: 2px;
+}
+.corpo .video-container .overlay{
+    position: absolute;
+    width: 784px;
+    height: 440px;
+    top: 13.25px;
+    left: 1px;
+    background-color:#8D350680;
+}
+.corpo .video-container h2{
+    position: absolute;
+    width: 734px;
+    height: 54px;
+    top: 30px;
+    left: 34px;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.corpo .video-container img{
+    position: absolute;
+    width: 84px;
+    height: 86px;
+    top: 300px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+}
+.corpo .video-container h1{
+    position: absolute;
+    width: 452px;
+    height: 36px;
+    top: 300px;
+    left: 134px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.corpo .video-container h3{
+    position: absolute;
+    width: 452px;
+    height: 36px;
+    top: 335px;
+    left: 134px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: left;       
+    color: #FFFFFF;
+}
+/*Inicio cabeçalho e vídeo do corpo Pág. 1*/
+
+/*Início do menu de detalhes do canto direit- Pág 1*/
+.corpo .botoes{
+    position: absolute;
+    width: 300px;
+    height: 31px;
+    top: -10px;
+    left: 842px;
+    padding: 6px 12px 6px 12px;
+    gap: 5px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+}
+.corpo .botoes a{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    text-align: right;
+    color: #ED7839;
+    text-decoration: none;
+    font-style: normal;
+}
+.corpo .botoes .botao-download{
+    display: inline-flex;
+    width: 120px;
+    height: 31px;
+    left: 842px;
+    padding: 6px 12px 6px 12px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+    background-color: #ED7839;
+    text-align: center;
+}
+.corpo .botoes .botao-favoritar{
+    display: inline-flex;
+    width: 43px;
+    height: 31px;
+    left: 967px;
+    padding: 6px 12px 6px 12px;
+    gap: 5px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #ED7839;
+}
+.corpo .botoes .botao-doi{
+    display: inline-flex;
+    width: 43px;
+    height: 31px;
+    left: 967px;
+    padding: 6px 12px 6px 12px;
+    gap: 5px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: #ED7839;
+}
+.corpo .detalhes{
+    position: absolute;
+    width: 242px;
+    height: 470px;
+    top: 70px;
+    left: 825px;
+    gap: 0px;
+    border: 1px solid #ECECEC
+}
+.corpo .detalhes .titulo-box{
+    display: inline-flex;
+    width: 242px;
+    height: 45px;
+    left: 816px;
+    border-radius: 3px 3px 0px 0px;
+    opacity: 0px;
+    background: #FDF1EB;
+    border: 1px solid #ECECEC;
+    align-items: center;
+}
+.corpo .detalhes .titulo-box h1{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #4E4E4E;
+}
+.corpo .detalhes .texto-box{
+    width: 212px;
+    height: 364px;
+    top: 133px;
+    left: 835px;
+    gap: 0px;
+    opacity: 0px;
+}
+.corpo .detalhes .texto-box .apresentacao{
+    position: relative;
+    left: 10px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5C5C5C;
+}
+.corpo .detalhes .texto-box .autores{
+    position: relative;
+    left: 10px;
+}
+.corpo .detalhes .texto-box .autores h1{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5C5C5C;
+}
+.corpo .detalhes .texto-box .autores p{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5C5C5C;
+}
+.corpo .detalhes .texto-box .universidades{
+    position: relative;
+    left: 10px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #5C5C5C;
+}
+/*Fim do menu de detalhes do canto direito*/
+
+/*Inicio restante do corpo*/
+.corpo .resumo{
+    position: relative;
+    width: 1065px;
+    height: 189px;
+    top: 542px;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid #ECECEC
+}
+.corpo .resumo .titulo-box{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    width: 1065px;
+    height: 45px;
+    top: 0px;
+    background: #FDF1EB;
+}
+.corpo .resumo .titulo-box h1{
+    position: absolute;
+    left: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #4E4E4E;
+}
+.corpo .resumo p{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.75px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4E4E4E;
+}
+.corpo .resumo a{
+    position: absolute;
+    left: 902px;
+    top: 144px;
+    text-decoration: none;
+    font-style: normal;
+    color: #ED7839;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.75px;
+    letter-spacing: 0.02em;
+}
+.corpo .resumo-expandido{
+    position: relative;
+    width: 1058px;
+    height: 560px;
+    top: 542px;
+    left: 1px;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid #ECECEC
+}
+.corpo .resumo-expandido .titulo-box{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    width: 1065px;
+    height: 45px;
+    top: 0px;
+    background: #FDF1EB;
+}
+.corpo .resumo-expandido .titulo-box h1{
+    position: absolute;
+    left: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #4E4E4E;
+}
+.corpo .resumo-expandido p{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.75px;
+    letter-spacing: 0.02em;
+    text-align: left;    
+    text-align: left;
+    color: #4E4E4E;
+}
+.corpo .discussao-enviado{
+    position: relative;
+    width: 1065px;
+    height: 750px;
+    top: 570px;
+    gap: 0px;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid #ECECEC;
+}
+.corpo .discussao-enviado .titulo-box{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    width: 1065px;
+    height: 45px;
+    top: 0px;
+    background: #FDF1EB;
+}
+.corpo .discussao-enviado .titulo-box h1{
+    position: absolute;
+    left: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #4E4E4E
+}
+.corpo .discussao-enviado .enviado{
+    position: relative;
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    top: 60px;
+    color: #ED7839;
+}
+.corpo .discussao-enviado .enviado h1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: center;    
+}
+.corpo .discussao-enviado .paragrafo-box{
+    width: 626px;
+    left: 216.5px;
+    top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo .discussao-enviado .paragrafo-box p{
+    width: 805.25px;
+    position: absolute;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.25px;
+    text-align: center;
+    color: #595959;
+}
+.corpo .discussao-enviado .paragrafo-box a{
+    position: relative;
+    top: 30px;
+    width: 306.2px;
+    height: 20px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19.25px;
+    text-align: center;
+    color: #F48F44;
+}
+.corpo .discussao-enviado .paragrafo-box .botao-criar{
+    position: absolute;
+    width: 235.15px;
+    height: 32px;
+    top: 90px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    border-radius: 4px;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.corpo .discussao-enviado .paragrafo-box .botao-criar img{
+    margin-right: 5px;
+}
+.corpo .discussao-enviado .paragrafo-box .divisoria{
+    position: absolute;
+    top: 105px;
+}
+.corpo .discussao-enviado .comentario{
+    position: absolute;
+    height: auto;
+    top: -810px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corpo .discussao-enviado .comentario .caixa-de-comentario{
+    position: relative;
+    width: 1028px;
+    height: 148px;
+    top: 1054px;
+    left: 15px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+}
+.corpo .discussao-enviado .comentario .sobreposicao-box{
+    position: absolute;
+    width: 1028px;
+    height: 148px;
+    top: 1054px;
+    left: 15px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+    background-color: rgba(231, 231, 231, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corpo .discussao-enviado .comentario .sobreposicao-box h1{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #707070;
+}
+.corpo .discussao-enviado .comentario .sobreposicao-box a{
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.62px;
+    text-align: left;
+    color: #ED7839;
+}
+.corpo .discussao-enviado .comentario .caixa-de-comentario h1{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #ED7839;
+}
+.corpo .discussao-enviado .comentario .caixa-de-comentario h2{
+    position: relative;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    color: #5C5C5C;
+}
+.corpo .discussao-enviado .comentario .caixa-de-comentario p{
+    position: relative;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+}
+.corpo .discussao-enviado .comentario .caixa-de-comentario .interacao-comentario{
+    position: relative;
+    left: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 180px;
+    height: 19px;
+}
+.corpo .discussao-enviado .comentario .caixa-de-comentario .interacao-comentario button{
+    background: transparent;
+    border: none;
+}
+.corpo .discussao-enviado .comentario .caixa-de-comentario .interacao-comentario a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #757575;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 18.62px;
+    text-align: left;
+}
+.corpo .discussao .formulario{
+    position: relative;
+    top: 50px;
+    width: 1025px;
+    height: 245px;
+    left: 18px;
+    margin-bottom: 20px;
+}
+.corpo .discussao .formulario h1{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: center;
+    color: #5C5C5C;
+}
+.corpo .discussao .formulario form label{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.75px;
+    text-align: left;
+    color: #ED7839;
+}
+.corpo .discussao .formulario form .assunto{
+    width: 1025.52px;
+    height: 39px;
+    top: 60px;
+    left: -0.47px;
+    border-radius: 3px;
+    border: 1px solid #CCCCCC;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+    color: #4D4D4D;
+}
+.corpo .discussao .formulario form .conteudo{
+    width: 1025.52px;
+    height: 113px;
+    top: 132px;
+    left: -0.47px;
+    border-radius: 4px 4px 0px 0px;
+    border: 1px solid #CCCCCC;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+    vertical-align: top;
+    color: #4D4D4D;
+    resize: none;
+}
+.corpo .discussao .formulario form .submit-box{
+    position: absolute;
+    width: 1030px;
+    height: 31px;
+    left: -0.51px;
+    display: flex;
+    justify-content: right;
+    border-radius: 0px 0px 4px 4px;
+    background: #EAF1F2;
+    border: 1px solid #CCCCCC
+}
+.corpo .discussao .formulario form .submit-box .submit{
+    position: absolute;
+    width: 205.1px;
+    height: 31px;
+    border-radius: 0px 0px 4px 0px;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+.corpo .discussao{
+    position: relative;
+    width: 1065px;
+    height: 660px;
+    top: 570px;
+    gap: 0px;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid #ECECEC;
+}
+.corpo .discussao .titulo-box{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    width: 1065px;
+    height: 45px;
+    top: 0px;
+    background: #FDF1EB;
+}
+.corpo .discussao .titulo-box h1{
+    position: absolute;
+    left: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #4E4E4E
+}
+.corpo .discussao .compartilhe{
+    position: relative;
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    top: 60px;
+    color: #ED7839;
+}
+.corpo .discussao .compartilhe h1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: center;
+}
+.corpo .discussao .icone-box{
+    position: relative;
+    display: flex;
+    top: 80px;
+    justify-content: center;
+}
+.corpo .discussao .icone-box img{
+    margin-right: 50px;
+    position: relative;
+    display: flex;
+    top: 0px;
+    justify-content: center;
+}
+.corpo .discussao .paragrafo-box{
+    width: 626px;
+    left: 216.5px;
+    top: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo .discussao .paragrafo-box p{
+    position: absolute;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.25px;
+    text-align: center;
+    color: #595959;
+}
+.corpo .discussao .paragrafo-box .botao-criar{
+    position: absolute;
+    width: 133px;
+    height: 32px;
+    top: 60px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    border-radius: 4px;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.corpo .discussao .paragrafo-box .botao-criar img{
+    margin-right: 5px;
+}
+.corpo .discussao .paragrafo-box .divisoria{
+    position: absolute;
+    top: 75px;
+}
+.corpo .discussao .comentario{
+    position: absolute;
+    height: auto;
+    top: -730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corpo .discussao .comentario .caixa-de-comentario{
+    position: relative;
+    width: 1028px;
+    height: 148px;
+    top: 1054px;
+    left: 15px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+}
+.corpo .discussao .comentario .caixa-de-comentario h1{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #ED7839;
+}
+.corpo .discussao .comentario .caixa-de-comentario h2{
+    position: relative;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    color: #5C5C5C;
+}
+.corpo .discussao .comentario .caixa-de-comentario p{
+    position: relative;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+}
+.corpo .discussao .comentario .caixa-de-comentario .interacao-comentario{
+    position: relative;
+    left: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 180px;
+    height: 19px;
+}
+.corpo .discussao .comentario .caixa-de-comentario .interacao-comentario button{
+    background: transparent;
+    border: none;
+}
+.corpo .discussao .comentario .caixa-de-comentario .interacao-comentario a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #757575;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 18.62px;
+    text-align: left;
+}
+.corpo .discussao-expandido{
+    position: relative;
+    width: 1065px;
+    height: 1350px;
+    top: 570px;
+    gap: 0px;
+    border-radius: 3px 3px 0px 0px;
+    border: 1px solid #ECECEC;
+}
+.corpo .discussao-expandido .titulo-box{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    width: 1065px;
+    height: 45px;
+    top: 0px;
+    background: #FDF1EB;
+}
+.corpo .discussao-expandido .titulo-box h1{
+    position: absolute;
+    left: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #4E4E4E
+}
+.corpo .discussao-expandido .compartilhe{
+    position: relative;
+    display: flex;
+    top: 100px;
+    justify-content: center;
+    top: 60px;
+    color: #ED7839;
+}
+.corpo .discussao-expandido .compartilhe h1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.09px;
+    text-align: center;
+}
+.corpo .discussao-expandido .icone-box{
+    position: relative;
+    display: flex;
+    top: 80px;
+    justify-content: center;
+}
+.corpo .discussao-expandido .icone-box img{
+    margin-right: 50px;
+    position: relative;
+    display: flex;
+    top: 0px;
+    justify-content: center;
+}
+.corpo .discussao-expandido .paragrafo-box{
+    width: 626px;
+    left: 216.5px;
+    top: 120px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo .discussao-expandido .paragrafo-box p{
+    position: absolute;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.25px;
+    text-align: center;
+    color: #595959;
+}
+.corpo .discussao-expandido .paragrafo-box .botao-criar{
+    position: absolute;
+    width: 133px;
+    height: 32px;
+    top: 60px;
+    background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+    border-radius: 4px;
+    border: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.corpo .discussao-expandido .paragrafo-box .botao-criar img{
+    margin-right: 5px;
+}
+.corpo .discussao-expandido .paragrafo-box .divisoria{
+    position: absolute;
+    top: 75px;
+}
+.corpo .discussao-expandido .comentario{
+    position: absolute;
+    height: auto;
+    top: -730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario{
+    position: relative;
+    width: 1028px;
+    height: 148px;
+    top: 1054px;
+    left: 15px;
+    border: 1px solid #E7E7E7;
+    border-radius: 4px;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario h1{
+    position: relative;
+    top: 10px;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #ED7839;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario h2{
+    position: relative;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: left;
+    color: #5C5C5C;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario p{
+    position: relative;
+    left: 15px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .interacao-comentario{
+    position: relative;
+    left: 15px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 180px;
+    height: 19px;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .interacao-comentario button{
+    background: transparent;
+    border: none;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .interacao-comentario a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: #757575;
+    font-family: Segoe UI;
+    font-size: 14px;
+    font-weight: 350;
+    line-height: 18.62px;
+    text-align: left;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .resposta{
+    position: relative;
+    width: 1028px;
+    height: 110px;
+    border: 1px solid #E7E7E7;
+    bottom: 29px;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .resposta h2{
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    color: #5C5C5C;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .resposta p{
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+    color: #4D4D4D;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .resposta-autor{
+    position: relative;
+    width: 1028px;
+    height: auto;
+    left: 0px;
+    border: 1px solid #E7E7E7;
+    background: #F8F8F8;
+    bottom: 10px;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .resposta-autor h2{
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    color: #5C5C5C;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .resposta-autor h3{
+    position: relative;
+    bottom: 25px;
+    right: 80px;
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: right;
+    color: #ED7839;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .resposta-autor img{
+    position: relative;
+    width: 30.92px;
+    height: 23.22px;
+    bottom: 55px;
+    left: 980px;
+}
+.corpo .discussao-expandido .comentario .caixa-de-comentario .resposta-autor p{
+    position: relative;
+    bottom: 45px;
+    font-family: Quicksand;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align: left;
+    color: #4D4D4D;
+}
+/*Fim restante do corpo*/
+/* Inicio do rodapé*/
+.rodape-base{
+    position:relative;
+    width: 1146px;
+    height: 181px;
+    top: 600px;
+    left: 0px;
+    padding: 0px 46px 0px 14px;
+}
+.rodape-base img{
+    width: 1086px;
+    height: 181px;
+    left: 0px;
+}
+.rodape-resumo-expandido{
+    position:relative;
+    width: 1146px;
+    height: 181px;
+    top: 600px;
+    left: 250px;
+    padding: 0px 46px 0px 14px;
+}
+.rodape-resumo-expandido img{
+    width: 1086px;
+    height: 181px;
+    left: 14px;
+}
+.rodape-enviado{
+    position: relative;
+    width: 1086px;
+    height: 181px;
+    top: 600px;
+    left: 0px;
+} 
+.rodape-expandido{
+    position: relative;
+    width: 1086px;
+    height: 181px;
+    top: 540px;
+    left: 0px;
+} 
+
+
